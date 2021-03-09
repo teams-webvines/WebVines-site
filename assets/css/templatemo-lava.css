@@ -211,7 +211,7 @@ body {
     body {
         overflow-x: hidden;
     }
-    .mobile-top-fix {
+    .mobile-fix {
         margin-top: 30px;
         margin-bottom: 0px;
     }
@@ -240,6 +240,25 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
     background-color: #f1556a;
+}
+
+a.up-order-button {
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 0.5px 25px;
+    background-color: #fba70b;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a.up-order-button:hover {
+    background-color: #fb770b;
 }
 
 a.main-button {
@@ -374,7 +393,6 @@ header
     margin-top: 27px;
     margin-left: 15%;
     margin-right: 0px;
-    background-color: #fff;
     padding: 0px 20px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
