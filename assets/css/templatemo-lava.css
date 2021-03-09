@@ -1110,6 +1110,25 @@ footer .right-content {
     padding: 20px;
 }
 
+a.order-now {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #fba70b;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a.order-now:hover {
+    background-color: #f1556a;
+}
+
 .contact-form {
     text-align: center;
 }
@@ -1161,38 +1180,7 @@ footer .right-content {
 footer .social {
     overflow: hidden;
     margin-top: 30px;
-}
-
-footer .social li:first-child {
-    margin-left: 0px;
-}
-
-footer .social li {
-    margin: 0px 7.5px;
-    display: inline-block;
-}
-
-footer .social li a {
-    color: #fff;
-    text-align: center;
-    background-color: transparent;
-    border: 1px solid #fff;
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 16px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-footer .social li a:hover {
-    background-color: #fba70b;
-    border-color: #fba70b;
-    color: #fff;
+    padding: 15px 25px;
 }
 
 footer .copyright {
